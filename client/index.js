@@ -1,7 +1,10 @@
 import React from "react";
+import { App } from "./components/app"
+
 import { render } from "react-dom";
+import { StyledButton }  from "./components/shared/button/styledButton"
 
 
-const App = () => <h1>Hello World</h1>;
+
 
 render(<App />, document.getElementById("root"));
